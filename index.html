@@ -4,32 +4,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>기본홈페이지</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/jquery.mb.YTPlayer.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="./js/custom.js"></script>
 </head>
 
 <body>
-    <h1>html, css, javascript 수업</h1>
-
-    <ul>
-        <li>
-            <a href="./01_box.html" target="_blank">box 가로배치01</a>
-        </li>
-        <li>
-            <a href="./02_box02.html" target="_blank">box 가로배치02 - float</a>
-        </li>
-        <li>
-            <a href="./03_position01.html" target="_blank">box 겹쳐놓기 팝업</a>
-        </li>
-        <li>
-            <a href="./04_position02.html" target="_blank">box 겹쳐놓기 위로올라가는 버튼</a>
-        </li>
-        <li>
-            <a href="./05_position03.html" target="_blank">모바일 메뉴 버튼 만들기</a>
-        </li>
-        <li>
-            <a href="./06_position04.html" target="_blank">슬라이드 화살표 만들기</a>
-        </li>
-    </ul>
+    <header class="header">
+        <div class="inner">
+            <h1><a href=""><img src="./images/grafflogo.png" alt=""></a></h1>
+            <nav class="gnb">
+                <ul>
+                    <li><a href="">회사소개</a></li>
+                    <li><a href="">회사연혁</a></li>
+                    <li><a href="">제품소개</a></li>
+                    <li><a href="">찾아오시는길</a></li>
+                    <li><a href="">문의게시판</a></li>
+                </ul>
+            </nav>
+            <button class="mbtn">
+                <i class="xi-bars"></i>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="main_visual">
+            <div class="main_slide">
+                <div class="itm itm01">
+                    <div class="slg">
+                        <strong>Lorem ipsum dolor sit.</strong>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam architecto repellat
+                            consequuntur!</p>
+                    </div>
+                </div>
+                <div class="itm itm02">
+                    <div class="slg">
+                        <strong>Lorem ipsum dolor sit.</strong>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam architecto repellat
+                            consequuntur!</p>
+                    </div>
+                </div>
+                <div class="itm itm03">
+                    <div class="slg">
+                        <strong>Lorem ipsum dolor sit.</strong>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam architecto repellat
+                            consequuntur!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main_content default">
+            <div class="tit">
+                <h2>우리나라 대한민국</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda voluptatum accusantium quos!</p>
+            </div>
+            <div class="inner">
+                <div class="itm">
+                    <figure>
+                        <img src="./images/lesedilarona01.jpg" alt="">
+                    </figure>
+                    <strong>lesedilarona01</strong>
+                    <div class="ord">
+                        <a href="">구매하기</a>
+                    </div>
+                </div>
+                <div class="itm">
+                    <figure>
+                        <img src="./images/lesedilarona02.jpg" alt="">
+                    </figure>
+                    <strong>lesedilarona02</strong>
+                    <div class="ord">
+                        <a href="">구매하기</a>
+                    </div>
+                </div>
+                <div class="itm">
+                    <figure>
+                        <img src="./images/lesedilarona03.jpg" alt="">
+                    </figure>
+                    <strong>lesedilarona03</strong>
+                    <div class="ord">
+                        <a href="">구매하기</a>
+                    </div>
+                </div>
+                <div class="itm">
+                    <figure>
+                        <img src="./images/lesedilarona04.jpg" alt="">
+                    </figure>
+                    <strong>lesedilarona04</strong>
+                    <div class="ord">
+                        <a href="">구매하기</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="inner">
+            <address>&copy; lee.</address>
+        </div>
+    </footer>
 </body>
 
 </html>
